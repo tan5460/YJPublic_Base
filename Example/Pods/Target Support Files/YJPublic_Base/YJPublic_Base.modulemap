@@ -1,0 +1,6 @@
+framework module YJPublic_Base {
+  umbrella header "YJPublic_Base-umbrella.h"
+
+  export *
+  module * { export * }
+}

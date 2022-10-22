@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'YJPublic_Base_Example' do
+  pod 'YJPublic_Base', :path => '../'
+
+  target 'YJPublic_Base_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

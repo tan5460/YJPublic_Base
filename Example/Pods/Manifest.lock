@@ -1,0 +1,16 @@
+PODS:
+  - YJPublic_Base (0.1.0)
+
+DEPENDENCIES:
+  - YJPublic_Base (from `../`)
+
+EXTERNAL SOURCES:
+  YJPublic_Base:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YJPublic_Base: 9404ac9944ff82e55cebabd85165c0cc109e8686
+
+PODFILE CHECKSUM: 7af556502f5b0c8643a30009df8af713d6acbd05
+
+COCOAPODS: 1.11.3
