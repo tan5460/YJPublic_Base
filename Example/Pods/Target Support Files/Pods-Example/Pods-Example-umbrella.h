@@ -10,9 +10,7 @@
 #endif
 #endif
 
-#import "YJPublicBaseHeader.h"
-#import "UIColor+YJBase.h"
 
-FOUNDATION_EXPORT double YJPublic_BaseVersionNumber;
-FOUNDATION_EXPORT const unsigned char YJPublic_BaseVersionString[];
+FOUNDATION_EXPORT double Pods_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ExampleVersionString[];
 

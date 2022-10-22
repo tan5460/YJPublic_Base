@@ -24,13 +24,18 @@ Objective-C项目基本功能合集
   s.homepage         = 'https://github.com/tan5460/YJPublic_Base'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'YJ-T' => '313037101@qq.com' }
+  s.author           = { 'TYJ' => '313037101@qq.com' }
   s.source           = { :git => 'https://github.com/tan5460/YJPublic_Base.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'YJPublic_Base/**/*'
+  s.source_files = 'Classes/YJPublicBaseHeader.h'
+  
+  s.subspec 'Extension' do |ss|
+      ss.source_files = 'Classes/Extention/*.{h,m}'
+  end
+  
   
   # s.resource_bundles = {
   #   'YJPublic_Base' => ['YJPublic_Base/Assets/*.png']

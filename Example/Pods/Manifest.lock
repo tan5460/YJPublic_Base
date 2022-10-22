@@ -1,5 +1,7 @@
 PODS:
-  - YJPublic_Base (0.1.0)
+  - YJPublic_Base (0.1.0):
+    - YJPublic_Base/Extension (= 0.1.0)
+  - YJPublic_Base/Extension (0.1.0)
 
 DEPENDENCIES:
   - YJPublic_Base (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YJPublic_Base: 9404ac9944ff82e55cebabd85165c0cc109e8686
+  YJPublic_Base: 6cca82951c71cda25b792714fc1adea7201edbd7
 
-PODFILE CHECKSUM: 7af556502f5b0c8643a30009df8af713d6acbd05
+PODFILE CHECKSUM: ad1c83de9314df44f65d00decd98c881e278383a
 
 COCOAPODS: 1.11.3

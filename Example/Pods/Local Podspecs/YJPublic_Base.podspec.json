@@ -1,22 +1,28 @@
 {
   "name": "YJPublic_Base",
   "version": "0.1.0",
-  "summary": "A short description of YJPublic_Base.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/YJ-T/YJPublic_Base",
+  "summary": "OC项目基本功能合集",
+  "description": "Objective-C项目基本功能合集",
+  "homepage": "https://github.com/tan5460/YJPublic_Base",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "YJ-T": "313037101@qq.com"
+    "TYJ": "313037101@qq.com"
   },
   "source": {
-    "git": "https://github.com/YJ-T/YJPublic_Base.git",
+    "git": "https://github.com/tan5460/YJPublic_Base.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
-  "source_files": "YJPublic_Base/Classes/**/*"
+  "source_files": "Classes/YJPublicBaseHeader.h",
+  "subspecs": [
+    {
+      "name": "Extension",
+      "source_files": "Classes/Extention/*.{h,m}"
+    }
+  ]
 }
