@@ -14,9 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)randomColor;
 + (instancetype)randomColorWithAlpha:(CGFloat)alpha;
 
-+ (UIColor*)colorWithHex:(NSInteger)hexValue;
-+ (UIColor*)colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
++ (instancetype)colorWithHex:(NSInteger)hexValue;
++ (instancetype)colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alpha;
 
++ (instancetype)colorWithHexString:(NSString *)hexString;
++ (instancetype)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha;
 
 @end
 
