@@ -12,6 +12,7 @@
 
 #import "YJPublicBaseHeader.h"
 #import "UIColor+YJBase.h"
+#import "UIView+YJBase.h"
 
 FOUNDATION_EXPORT double YJPublic_BaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char YJPublic_BaseVersionString[];

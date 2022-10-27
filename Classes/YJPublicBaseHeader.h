@@ -9,5 +9,6 @@
 #define YJPublicBaseHeader_h
 
 #import "UIColor+YJBase.h"
+#import "UIView+YJBase.h"
 
 #endif /* YJPublicBaseHeader_h */

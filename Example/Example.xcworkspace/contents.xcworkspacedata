@@ -6,6 +6,9 @@
       assignedFileDataType = "public.ruby-script">
    </FileRef>
    <FileRef
+      location = "group:Helps.md">
+   </FileRef>
+   <FileRef
       location = "group:Example.xcodeproj">
    </FileRef>
    <FileRef

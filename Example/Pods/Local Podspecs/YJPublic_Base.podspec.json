@@ -1,6 +1,6 @@
 {
   "name": "YJPublic_Base",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "OC项目基本功能合集",
   "description": "Objective-C项目基本功能合集",
   "homepage": "https://github.com/tan5460/YJPublic_Base",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tan5460/YJPublic_Base.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

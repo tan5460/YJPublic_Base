@@ -11,11 +11,11 @@
 
 //MARK: - 随机颜色
 
-+ (instancetype)randomColor {
-    return [self randomColorWithAlpha:1];
++ (instancetype)yj_randomColor {
+    return [self yj_randomColorWithAlpha:1];
 }
 
-+ (instancetype)randomColorWithAlpha:(CGFloat)alpha {
++ (instancetype)yj_randomColorWithAlpha:(CGFloat)alpha {
     int R = (arc4random() % 256);
     int G = (arc4random() % 256);
     int B = (arc4random() % 256);
@@ -24,11 +24,11 @@
 
 //MARK: - 十六进制数字颜色
 
-+ (instancetype)colorWithHex:(NSInteger)hexValue {
-    return [UIColor colorWithHex:hexValue alpha:1.0];
++ (instancetype)yj_colorWithHex:(NSInteger)hexValue {
+    return [UIColor yj_colorWithHex:hexValue alpha:1.0];
 }
 
-+ (instancetype)colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alpha {
++ (instancetype)yj_colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alpha {
     return [UIColor colorWithRed:((float)((hexValue & 0xFF0000) >> 16))/255.0
                            green:((float)((hexValue & 0xFF00) >> 8))/255.0
                             blue:((float)(hexValue & 0xFF))/255.0 alpha:alpha];
@@ -36,11 +36,11 @@
 
 //MARK: - 十六进制数字字符串颜色
 
-+ (instancetype)colorWithHexString:(NSString *)hexString {
-    return [self colorWithHexString:hexString alpha:1];
++ (instancetype)yj_colorWithHexString:(NSString *)hexString {
+    return [self yj_colorWithHexString:hexString alpha:1];
 }
 
-+ (instancetype)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha {
++ (instancetype)yj_colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha {
     //删除字符串中的空格
     NSString *cString = [[hexString stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
 

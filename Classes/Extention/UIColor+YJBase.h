@@ -11,14 +11,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (YJBase)
 
-+ (instancetype)randomColor;
-+ (instancetype)randomColorWithAlpha:(CGFloat)alpha;
++ (instancetype)yj_randomColor;
++ (instancetype)yj_randomColorWithAlpha:(CGFloat)alpha;
 
-+ (instancetype)colorWithHex:(NSInteger)hexValue;
-+ (instancetype)colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alpha;
++ (instancetype)yj_colorWithHex:(NSInteger)hexValue;
++ (instancetype)yj_colorWithHex:(NSInteger)hexValue alpha:(CGFloat)alpha;
 
-+ (instancetype)colorWithHexString:(NSString *)hexString;
-+ (instancetype)colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha;
++ (instancetype)yj_colorWithHexString:(NSString *)hexString;
++ (instancetype)yj_colorWithHexString:(NSString *)hexString alpha:(CGFloat)alpha;
 
 @end
 

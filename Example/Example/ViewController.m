@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import <YJPublic_Base/YJPublicBaseHeader.h>
 
 @interface ViewController ()
 
@@ -15,7 +16,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self createViews];
+}
+
+- (void)createViews {
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIView *testView = [[UIView alloc] initWithFrame:CGRectMake(10, 100, 394, 394)];
+    testView.backgroundColor = [UIColor yj_randomColor];
+//    [testView yj_setRectCornerWithCorners:(UIRectCornerTopLeft | UIRectCornerBottomRight) radius:15];
+    [testView yj_setRectCornerWithCorners:(UIRectCornerTopLeft | UIRectCornerBottomRight) radius:15 frame:CGRectMake(50, 50, 50, 50)];
+    [self.view addSubview:testView];
+    
 }
 
 
