@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YJPublic_Base'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'OC项目基本功能合集'
 
 # This description is used to generate tags and improve search results.
